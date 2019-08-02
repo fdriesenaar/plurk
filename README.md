@@ -14,4 +14,10 @@ From the example we can see that given a message of lenght n, a permu consists o
 
 # Generating the permu
 
-Of course, no one is going to generate (or communicate) the permu in this form, so the next thing to find a way to generate this permu from a pass phrase or other way.
+I included a python function which generates a permu based on a (big) number and subsequently uses this to encrypt and decrypt a message.
+It generates the following output:
+
+	126756812799956756
+	[7, 6, 6, 7, 1, 2, 5, 3, 3, 2, 2, 1]
+	W olHldorl!e
+	Hello World!
