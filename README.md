@@ -14,10 +14,11 @@ From the example we can see that given a message of lenght n, a permu consists o
 
 # Generating the permu
 
-I included a python function which generates a permu based on a (big) number and subsequently uses this to encrypt and decrypt a message.
+I included a python function which generates a permu based on a (big) number and subsequently uses this to encrypt and decrypt a message with the option to xor the encrypted result.
 It generates the following output:
 
-	126756812799956756
-	[7, 6, 6, 7, 1, 2, 5, 3, 3, 2, 2, 1]
-	W olHldorl!e
-	Hello World!
+	12675681279995675689098798778
+	[10, 11, 5, 10, 8, 8, 3, 3, 4, 3, 3, 2, 1]
+	186
+	b'\xc8\xde\xd5\x9b\xd5\xd6\xd6\xd1\x9a\xd7\xed\xdf\xed'
+	b'Welkom World!'
