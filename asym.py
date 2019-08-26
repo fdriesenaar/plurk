@@ -29,9 +29,9 @@ def generate_pair(aa=1,ba=1,da=1,ea=1,f=1):
 
     d=f*da
     e=f*ea
-    a=aa*d
-    b=aa*e+ba*d
-    c=ba*e
+    a=aa*da
+    b=aa*ea+ba*da
+    c=ba*ea
     public={
         'a': a,
         'b': b,
